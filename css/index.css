@@ -210,7 +210,7 @@ body{
     transform: rotate(-45deg);
 }
 #navigation-bar img{
-    height: 80px;
+    height: 50px;
     position: absolute;
     ;
     top: 15%;
