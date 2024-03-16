@@ -1,9 +1,4 @@
-/*!
-  * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
-  * Author/Developer: Sujal
-  * Version: v1
-  */
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
@@ -18,7 +13,7 @@
     transition: all .4s ease;
 }
 ::-webkit-scrollbar-thumb {
-    background: #BE2A2D; 
+    background: #000000; 
     border-radius: 4px;
     width: 4px;
     transition: all .4s ease;
@@ -225,6 +220,7 @@ body{
 .header-image img{
     height: 100vh;
     float: right;
+
 }
 .header-image{
     float: right;
@@ -233,6 +229,10 @@ body{
     background-position: center;
     width: 40%;   
     height: 100vh;
+    margin-right: 6%;  
+    /* display: flex; */
+    /* align-content: end; */
+
 
 }
 .header-content{
@@ -391,7 +391,7 @@ body{
 #breaker{
     height: 100vh;
     width: 200%;
-    background-color: #BE2A2D;
+    background-color: #000000;
     opacity: 1;
     animation: breakeranimate 2s linear;
     display: none;
@@ -709,7 +709,7 @@ body{
     border-radius: 10px;
     background: #BE2A2D;
 }
-.adobe-progress{
+.SQL-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -1369,6 +1369,8 @@ For devices with smaller width like mobile phone
         font-weight: 500;
         letter-spacing: 2px;
         font-size: 40px;
+        margin-top: 15%;
+
     }
     .contact{
         display: none;
@@ -1376,6 +1378,7 @@ For devices with smaller width like mobile phone
     .header-image{
         float: right;
         height: auto;
+        margin-right: 0%;
         width: 0%;   
     }
     .social-media-links{
@@ -1827,11 +1830,14 @@ for tabs and large phones
         font-weight: 500;
         letter-spacing: 2px;
         font-size: 40px;
+        margin-top: 15%;
+
     }
     .header-image{
         float: right;
         height: auto;
-        width: 0%;   
+        width: 0%; 
+        margin-right: 7%;  
     }
     .social-media-links{
         width: 100%;
